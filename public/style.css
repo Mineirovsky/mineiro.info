@@ -60,3 +60,50 @@ a {
 #about-me .image-credit {
     align-self: flex-end;
 }
+
+#publications {
+    padding: 8px;
+}
+
+#publications h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#publications ul.publications__list {
+    padding: 0;
+    display: flex;
+}
+
+#publications ul.publications__list li {
+    width: 25%;
+}
+
+#publications ul.publications__list li:not(:nth-of-type(4n+1)) {
+    margin-left: 8px;
+}
+
+#publications article.publications__article {
+    background: white;
+    color: #351f39;
+    border-radius: 6px;
+}
+
+#publications article.publications__article .article-figure {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 2.75rem;
+    background: #a0c1b8;
+}
+
+#publications article.publications__article .article-brief {
+    padding: .5rem 1rem;
+}
+
+#publications article.publications__article .article-brief h3 {
+    margin: 0;
+}
+
+#publications article.publications__article .article-brief .publication-date {
+    font-size: .75em;
+}
