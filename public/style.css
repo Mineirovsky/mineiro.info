@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #726a95;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav.navbar {
+    background: #351f39;
+    padding: 1px;
+    display: flex;
+}
+
+nav.navbar .container {
+    display: flex;
+}
+
+ul.navbar__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    color: white;
+}
+
+#about-me {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    background: url('img/servers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    box-shadow: rgb(0 0 0 / 33%) 0 6px 4px;
+}
+
+#about-me h2 {
+    font-size: 3em;
+}
+
+#about-me .container {
+    width: 50%;
+    text-align: right;
+}
+
+#about-me .image-credit {
+    align-self: flex-end;
+}
